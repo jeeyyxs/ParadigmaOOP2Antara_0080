@@ -19,7 +19,7 @@ public:
     {
         cout << "pekerja dibuat\n" << endl;
     }
-;
+};
 
 class pelajar : public orang {
 public:
@@ -39,4 +39,9 @@ public:
         cout << "Budi dibuat\n" << endl;
     }
 };
+
+int main(){
+    budi a(12);
+    return 0;
+}
 
